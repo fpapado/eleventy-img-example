@@ -4,11 +4,17 @@ An example of using [Eleventy's eleventy-img plugin](https://www.11ty.dev/docs/p
 
 ## Pre-requisites
 
-You will need [Node](https://nodejs.org/en/download/) and npm installed. npm typically comes installed with node. I recommend [using a version manager, such as nvm, to manage your node installation](nvm)
+You will need [Node](https://nodejs.org/en/download/) and npm installed. npm typically comes installed with node. I recommend [using a version manager, such as nvm, to manage your node installation](https://github.com/nvm-sh/nvm)
 
 ## How to build
 
 In a terminal, such as iTerm on MacOS, gnome terminal on Linux, or Windows Subsystem for Linux (WSL) on Windows, type:
+
+If you have nvm installed, make sure the node versions match up
+
+```shell
+nvm use
+```
 
 ```shell
 # Install dependencies
