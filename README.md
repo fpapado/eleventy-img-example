@@ -1,6 +1,8 @@
 # 11ty-img-example
 
-An example of using Eleventy's eleventy-img plugin
+An example of using [Eleventy's eleventy-img plugin](https://www.11ty.dev/docs/plugins/image/).
+
+## Pre-requisites
 
 You will need [Node](https://nodejs.org/en/download/) and npm installed. npm typically comes installed with node. I recommend [using a version manager, such as nvm, to manage your node installation](nvm)
 
@@ -27,7 +29,7 @@ To develop:
 npm run dev
 ```
 
-This will start a server at localhost:8080.
+This will start a server at http://localhost:8080.
 
 To build:
 
@@ -92,5 +94,5 @@ And this is what usage (with Nunjucks templating) looks like:
 
 {# Insert a picture element with different sources #}
 
-{% picture "https://upload.wikimedia.org/wikipedia/commons/3/3b/Good_Morning_From_the_International_Space_Station.jpg", "The Earth at night, seen from the international space station. Cities and towns are lit up as bright spots.", "100vw"  %}
+{% picture "https://upload.wikimedia.org/wikipedia/commons/3/3b/Good_Morning_From_the_International_Space_Station.jpg", "The Earth at night, seen from the international space station. Cities and towns are lit up as bright spots.", "48rem"  %}
 ```
