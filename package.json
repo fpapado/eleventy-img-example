@@ -20,6 +20,7 @@
   "homepage": "https://github.com/fpapado/11ty-img-example#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-img": "^0.7.4"
+    "@11ty/eleventy-img": "^0.7.4",
+    "markdown-it": "^12.0.4"
   }
 }
