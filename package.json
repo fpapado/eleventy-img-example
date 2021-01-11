@@ -1,0 +1,25 @@
+{
+  "name": "11ty-img-example",
+  "version": "1.0.0",
+  "description": "An example of using Eleventy's eleventy-img plugin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpapado/11ty-img-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpapado/11ty-img-example/issues"
+  },
+  "homepage": "https://github.com/fpapado/11ty-img-example#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-img": "^0.7.4"
+  }
+}
